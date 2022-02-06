@@ -7,7 +7,7 @@ import {
 	Audio,
 } from 'remotion';
 
-import audio from './assets/pop.mp3';
+import pop from './assets/pop.mp3';
 
 import {ColorBar} from './ColorBars/index';
 
@@ -23,7 +23,7 @@ export const HelloWorld: React.FC<{
 	return (
 		<div style={{flex: 1, backgroundColor: 'black'}}>
 			{/* <Sequence from={10} durationInFrames={Infinity}> */}
-			<Audio src={audio} />
+			<Audio src={pop} />
 			{/* </Sequence> */}
 			<ColorBar />
 
